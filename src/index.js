@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(cors({
-  origin: ['http://localhost:3000', process.env.CLIENT_URL], 
+  origin: "https://roxiler-transactions-dashboard.netlify.app/", 
 }));
 app.use(express.json());
 
